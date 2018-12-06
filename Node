@@ -1,0 +1,50 @@
+public class Node {
+
+    private ArrayList list();
+    private String id;
+    private String name;
+
+    public Node(String id, String name, ArrayList list) {
+        id = id;
+        name = name;
+        list() = list;
+    }
+
+    public void add(Node n){
+        list.add(n);
+    }
+
+    public Node(Object o, Node n) {
+        data = o;
+        next = n;
+    }
+
+    /**
+     * @return the data
+     */
+    public Object getData() {
+        return data;
+    }
+
+    /**
+     * @return the next
+     */
+    public Node getNext() {
+        return next;
+    }
+
+    /**
+     * @param data the data to set
+     */
+    public void setData(Object data) {
+        this.data = data;
+    }
+
+    /**
+     * @param next the next to set
+     */
+    public void setNext(Node next) {
+        this.next = next;
+    }
+
+}
